@@ -1,7 +1,8 @@
-package school.sorokin.reservation;
+package school.sorokin.reservation.repository.entity;
 
 
 import jakarta.persistence.*;
+import school.sorokin.reservation.enums.ReservationStatus;
 
 import java.time.LocalDate;
 

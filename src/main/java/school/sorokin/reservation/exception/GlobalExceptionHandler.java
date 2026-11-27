@@ -1,4 +1,4 @@
-package school.sorokin.reservation;
+package school.sorokin.reservation.exception;
 
 
 
@@ -10,6 +10,7 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.MethodArgumentNotValidException;
 import org.springframework.web.bind.annotation.ControllerAdvice;
 import org.springframework.web.bind.annotation.ExceptionHandler;
+import school.sorokin.reservation.exception.dto.ErrorResponseDto;
 
 import java.time.LocalDateTime;
 

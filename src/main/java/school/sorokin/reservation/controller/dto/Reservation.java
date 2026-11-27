@@ -1,8 +1,9 @@
-package school.sorokin.reservation;
+package school.sorokin.reservation.controller.dto;
 
 import jakarta.validation.constraints.FutureOrPresent;
 import jakarta.validation.constraints.NotNull;
 import jakarta.validation.constraints.Null;
+import school.sorokin.reservation.enums.ReservationStatus;
 
 import java.time.LocalDate;
 
